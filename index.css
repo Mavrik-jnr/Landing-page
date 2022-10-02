@@ -3,6 +3,18 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+body {
+  margin: 0;
+}
+
+/* Typography */
 h1 {
   font-size: 48px;
   font-weight: 800;
@@ -27,4 +39,28 @@ button {
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
+}
+p,
+li {
+  font-size: 16px;
+  color: #f9faf8;
+}
+
+/* Layout  */
+section,
+.header {
+  width: 70%;
+  margin: 0px auto;
+}
+header {
+  display: flex;
+  background-color: #1f2937;
+}
+.header {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+}
+header .logo {
+  flex: 1;
 }
