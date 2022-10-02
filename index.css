@@ -1,5 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display");
 * {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+h4 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
 }
