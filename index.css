@@ -47,7 +47,7 @@ li {
 }
 
 /* Layout  */
-section,
+.section-content,
 .header {
   width: 70%;
   margin: 0px auto;
@@ -60,6 +60,10 @@ header {
   display: flex;
   background-color: #1f2937;
   justify-content: space-between;
+  align-items: center;
+}
+.header li {
+  color: #e5e7eb;
 }
 header .logo {
   flex: 1;
